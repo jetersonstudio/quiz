@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz Estático</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz de Conhecimentos Gerais</h1>
+
+      <form class="quiz">
+        <div class="question">
+          <p>1. Qual é o maior planeta do sistema solar?</p>
+
+          <input type="radio" name="q1" id="q1a" hidden />
+          <label for="q1a">Terra</label>
+
+          <input type="radio" name="q1" id="q1b" hidden />
+          <label for="q1b">Júpiter</label>
+
+          <input type="radio" name="q1" id="q1c" hidden />
+          <label for="q1c">Marte</label>
+
+          <input type="radio" name="q1" id="q1d" hidden />
+          <label for="q1d">Saturno</label>
+        </div>
+
+        <div class="question">
+          <p>2. Quem pintou a Mona Lisa?</p>
+
+          <input type="radio" name="q2" id="q2a" hidden />
+          <label for="q2a">Pablo Picasso</label>
+
+          <input type="radio" name="q2" id="q2b" hidden />
+          <label for="q2b">Leonardo da Vinci</label>
+
+          <input type="radio" name="q2" id="q2c" hidden />
+          <label for="q2c">Michelangelo</label>
+
+          <input type="radio" name="q2" id="q2d" hidden />
+          <label for="q2d">Van Gogh</label>
+        </div>
+
+        <div class="question">
+          <p>3. Qual país é conhecido como "terra do sol nascente"?</p>
+
+          <input type="radio" name="q3" id="q3a" hidden />
+          <label for="q3a">China</label>
+
+          <input type="radio" name="q3" id="q3b" hidden />
+          <label for="q3b">Coreia do Sul</label>
+
+          <input type="radio" name="q3" id="q3c" hidden />
+          <label for="q3c">Japão</label>
+
+          <input type="radio" name="q3" id="q3d" hidden />
+          <label for="q3d">Tailândia</label>
+        </div>
+
+        <p class="note">
+          * Este é um quiz estático. Você pode marcar alternativas, mas ele não
+          mostra o resultado.
+        </p>
+
+        <button type="button" class="submit-button">Ver resultado</button>
+      </form>
+    </div>
+  </body>
+</html>
